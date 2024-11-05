@@ -3,7 +3,7 @@ import Home from "./pages/HomePage";
 import About from "./pages/About";
 import Blog from "./pages/Blog";
 import NotFound from "./pages/NotFound";
-import Layout from "./components/Layout";
+import Layout from "./views/components/Layout";
 
 function App() {
   return (

@@ -2,8 +2,9 @@ import HeroFaceImg from "../../../assets/images/hero-face.png";
 import HeroBodyImg from "../../../assets/images/hero-body.png";
 import HeroBg from "../../../assets/images/hp-hero-bg.png";
 import HeroLinkArrow from "../../../assets/images/link-arrow.svg";
+import Logo from "../../../assets/images/logo.svg";
 import styles from "./Hero.module.scss";
-import { ButtonOpacity } from "../../../shared/UI/buttonOpacity";
+import { ButtonOpacity } from "../../../shared/UI/button-opacity";
 
 const HomeHeroSection = () => { 
   return (
@@ -25,12 +26,10 @@ const HomeHeroSection = () => {
             />
           </a>
         </div>
-        <div>
-          <img></img>
+        <div className={styles.heroContainerCenter}>
+          <img className={styles.heroContainerCenterLogo} src={Logo}></img>
           <p></p>
-          <ButtonOpacity>
-            Натуральная косметика для бережного ухода за кожей
-          </ButtonOpacity>
+          <ButtonOpacity />
         </div>
         <div className={styles.heroContainerRight}>
           <div className={styles.heroContainerRightImg}>

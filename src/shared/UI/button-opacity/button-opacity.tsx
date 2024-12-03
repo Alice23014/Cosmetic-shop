@@ -1,5 +1,26 @@
+import { Link } from "react-router-dom";
 import styles from "./button-opacity.module.scss";
 
-export const ButtonOpacity = () => {
-  return <a href="#" className={styles.buttonOpacity}>Подробнее</a>;
+import cn from "classnames";
+
+interface ButtonOpacityProps {
+  text: string;
+  url: string;
+  isUnderline?: boolean;
+}
+export const ButtonOpacity: React.FC<ButtonOpacityProps> = ({
+  text,
+  url,
+  isUnderline,
+}) => {
+  return (
+    <Link
+      className={cn(
+        isUnderline ? styles.buttonOpacityBottom : styles.buttonOpacity
+      )}
+      to={`/${url}`}
+    >
+      {text}
+    </Link>
+  );
 };

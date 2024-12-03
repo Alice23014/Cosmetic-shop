@@ -1,0 +1,8 @@
+.bestsellers{
+    padding: 140px 0px 177px;
+    &ContainerInfo{
+        display: flex;
+        flex-direction:column;
+        gap: 30px;
+    }
+}

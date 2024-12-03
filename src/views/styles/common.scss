@@ -1,3 +1,31 @@
 body {
     background: #F8F8F6;
 }
+h2{
+    font-size: 32px;
+    color: #122947;
+    line-height: 41.6px;
+    font-weight: 500;
+}
+h3{
+    font-size: 16px;
+    color: #122947;
+    line-height: 23.2px;
+    font-weight: 500;
+}
+.container{
+  max-width: 1150px;
+  width: 100%;
+  margin: 0 auto;
+}
+p{
+    font-size: 18px;
+    line-height: 26.1px;
+    color: #122947;
+}
+@media screen and (max-width: 768px) {
+    h2{
+    line-height: 36.4px;
+    font-weight: 28px;
+    }
+}

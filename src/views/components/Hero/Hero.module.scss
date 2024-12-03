@@ -17,20 +17,6 @@
     &Container{
         display: flex;
         gap: 20px;
-        
-        &Right{
-            &Link{
-                display: flex;
-            }
-            &Arrow{
-                width: 26px;
-                height: 12px;
-            }
-            &Text{
-                color: rgba(18, 41, 71, 1);
-                font-weight: 500;
-            }
-        }
         &Center{
             display: flex;
             flex-direction: column;

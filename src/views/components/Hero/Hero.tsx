@@ -17,7 +17,7 @@ const HomeHeroSection: React.FC = () => {
         <div className={styles.heroContainerCenter}>
           <img className={styles.heroContainerCenterLogo} src={Logo}></img>
           <p className={styles.heroContainerCenterText}>Натуральная косметика <br></br> для бережного ухода за кожей</p>
-          <ButtonOpacity />
+          <ButtonOpacity text={"Подробне"}/>
         </div>
         <HeroCard image={HeroBodyImg} text={"Уход для тела"}/>
       </div>

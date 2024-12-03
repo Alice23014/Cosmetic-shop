@@ -70,12 +70,6 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-.container{
-  max-width: 1150px;
-  width: 100%;
-  margin: 0 auto;
-}
-
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;

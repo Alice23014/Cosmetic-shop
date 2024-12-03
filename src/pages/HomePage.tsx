@@ -1,9 +1,12 @@
+import { Bestsellers } from "../views/components/bestsellers/bestsellers";
 import HomeHeroSection from "../views/components/Hero/Hero";
 
 const Home = () => {
   return (
-    <HomeHeroSection></HomeHeroSection>
-    
+    <main>
+    <HomeHeroSection/>
+    <Bestsellers/>
+    </main>
   );
 };
 

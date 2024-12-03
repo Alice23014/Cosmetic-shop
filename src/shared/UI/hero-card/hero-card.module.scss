@@ -1,0 +1,16 @@
+.card{
+    &Img{
+        margin-bottom: 15px;
+    }
+    &Link{
+        display: flex;
+        &Text{
+            color: rgba(18, 41, 71, 1);
+            font-weight: 500;
+        }
+        &Arrow{
+            width: 26px;
+            height: 12px;
+        }
+    }
+}

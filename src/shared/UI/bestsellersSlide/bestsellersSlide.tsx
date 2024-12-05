@@ -3,6 +3,7 @@ import styles from "./bestsellersSlide.module.scss";
 import { Link } from "react-router-dom";
 import { ButtonOpacity } from "../button-opacity/button-opacity";
 
+
 interface BestsellersSlideProps {
   id: number;
   image: string;
@@ -17,7 +18,7 @@ export const BestsellersSlide: FC<BestsellersSlideProps> = ({
   name,
 }) => {
   return (
-    <li className={styles.bestsellersSlide}>
+    <div className={styles.bestsellersSlide}>
       <div className={styles.bestsellersSlideImg}>
         <img src={image} />
       </div>
@@ -26,6 +27,6 @@ export const BestsellersSlide: FC<BestsellersSlideProps> = ({
         <p className={styles.bestsellersSlideText}>{desc}</p>
         <ButtonOpacity isUnderline text={"Подробнее"} url={String(id)} />
       </div>
-    </li>
+    </div>
   );
 };

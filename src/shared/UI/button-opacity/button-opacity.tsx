@@ -16,7 +16,7 @@ export const ButtonOpacity: React.FC<ButtonOpacityProps> = ({
   return (
     <Link
       className={cn(
-        isUnderline ? styles.buttonOpacityBottom : styles.buttonOpacity
+        isUnderline ? styles.buttonOpacityUnderline : styles.buttonOpacity
       )}
       to={`/${url}`}
     >

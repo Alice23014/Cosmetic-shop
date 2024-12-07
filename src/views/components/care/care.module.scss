@@ -1,0 +1,37 @@
+.care {
+  padding: 140px 0px;
+  &Container {
+    width: 100%;
+  }
+  &Wrap {
+    display: flex;
+    align-items: center;
+  }
+  &Info {
+    max-width: 670px;
+    width: 100%;
+    padding: 100px 50px;
+    background: #f4f1ed;
+    &Text{
+        max-width: 311px;
+        margin: 40px 0px 45px
+    }
+  }
+  &Img {
+    max-width: 670px;
+    max-height: 451px;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    &Absolute {
+      position: absolute;
+      left: -20%;
+        transform: translateY(-50%);
+      & img {
+        height: 100%;
+        width: 670px;
+        
+      }
+    }
+  }
+}

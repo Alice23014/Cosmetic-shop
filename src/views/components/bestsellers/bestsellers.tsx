@@ -56,11 +56,17 @@ export const Bestsellers = () => {
             </SwiperSlide>
           ))}
           <div className={styles.bestsellersContainerWrap}>
-            <SlideButton className={styles.bestsellersContainerBtnArrow} type='Next'/>
-            <SlideButton className={cn(
-          styles.bestsellersContainerBtnArrow,
-          styles.bestsellersContainerBtnArrowReverse
-        )} type='Prev'/>
+            <SlideButton
+              className={cn(
+                styles.bestsellersContainerBtnArrow,
+                styles.bestsellersContainerBtnArrowReverse
+              )}
+              type="Prev"
+            />  
+            <SlideButton
+              className={styles.bestsellersContainerBtnArrow}
+              type="Next"
+            />
           </div>
         </Swiper>
       </div>

@@ -9,19 +9,21 @@ export const Care = () =>{
           <div className={styles.careWrap}>
             <div className={styles.careInfo}>
               <h2>Индивидуальный уход</h2>
-              <p>
+              <p className={styles.careInfoText}>
                 Не всегда очевидно, какие элементы и минералы необходимы коже, а
                 многочисленные эксперименты с разными средствами только ухудшают
                 ее качество.
               </p>
-              <p>
+              <p className={styles.careInfoText}  >
                 Заполните анкету, и мы подберем уход, подходящий именно вам,
                 учитывая ваш образ жизни, место жительства и другие факторы.
               </p>
               <ButtonOpacity text="Заполнить анкету" url="#"></ButtonOpacity>
             </div>
             <div className={styles.careImg}>
-              <img src={CareImg} alt="" />
+              <div className={styles.careImgAbsolute}>
+                <img className={styles.careImg} src={CareImg} alt="" />
+              </div>
             </div>
           </div>
         </div>
